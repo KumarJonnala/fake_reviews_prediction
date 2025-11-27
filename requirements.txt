@@ -1,0 +1,7 @@
+pandas
+pydantic
+langchain
+langchain-core
+langchain-community
+langchain-ollama
+scikit-learn
