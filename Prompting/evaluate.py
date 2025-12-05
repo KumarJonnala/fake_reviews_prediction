@@ -3,7 +3,8 @@ from sklearn.metrics import accuracy_score, f1_score, confusion_matrix
 
 def evaluate_model(df, results):
     # Get true labels from the dataframe
-    y_true = df["deceptive"].tolist()
+    #y_true = df["deceptive"].tolist()
+    y_true = df["label"].tolist()
     y_pred = results
 
     # Calculate metrics
